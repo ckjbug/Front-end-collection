@@ -70,6 +70,12 @@ a:hover {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+    .title {
+        display: none;
+    }
+}
+
 /*fix IE10, IE11 type=range can not display in bootstrap style*/
 input[type=range] {
     width: 200px\0;
