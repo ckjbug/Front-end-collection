@@ -156,8 +156,8 @@ angular.module('frontEnd', [])
 
               //Update the tooltip position and value
               d3.select("#tooltip")
-                .style("left", 10 + "px")
-                .style("top", 40 + "px")
+                .style("left", d3.event.x + 10 + "px")
+                .style("top", d3.event.y - 10 + "px")
                 .select("#desc")
                 .text(d.description)
                 
