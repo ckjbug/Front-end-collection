@@ -10,7 +10,7 @@ https://github.com/foru17/luolei-dotfiles/blob/master/feedly.opml
 
 #### [前端收集图谱](http://get-set.cn/front-end-collect/)
 
-- clone https://github.com/hjzheng/front-end-collect
+- git clone https://github.com/hjzheng/front-end-collect
 - cd front-end-collect 
 - bower install
 - 放入你喜欢的web容器,访问index.html即可
